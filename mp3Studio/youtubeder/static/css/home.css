@@ -1,0 +1,149 @@
+.logo-img{
+ width: 11%;
+}
+.main-nav{
+    background-color: #e84d56;
+    background-image: url("/images/header_bg.3dea8d7.png");
+    background-repeat: repeat;
+}
+.nav-button{
+  border: 1px solid white;
+}
+.toggle-button{
+  margin-left: 258px;
+}
+.title{
+    color: white;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 11px;
+    border-radius: 28px;
+}
+.title:hover{
+  color: #e84d56;
+  border-radius: 28px;
+    background-color: white; 
+    padding: 10px;
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  }
+
+  .search_input{
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  width: 450px;
+  transition: width 0.4s linear;
+  caret-color:#e84d56;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #e84d56;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:#e84d56;
+  text-decoration:none;
+  }
+
+
+  /* main title */
+  .main-title{
+    text-align: center;
+    margin: auto;
+    width: 59%;
+    font-size: 20px;
+  }
+
+.card-contain{
+    border: none;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.card-contain:hover{
+  background-color: #e84d56;
+  color: white;
+}
+.icon-st{
+  font-size: 50px;
+    /* color: #e84d56; */
+}
+
+.crd-txt{
+  display: block;
+    /* color: #556770; */
+    font-size: 21px;
+}
+.crd-heading{
+  font-size: 30px;
+}
+.f-title{
+  width: 95%;
+    margin: auto;
+    font-size: 22px;
+    color: #556770;
+}
+
+.icon-list{
+  padding: 23px;
+  font-size: 37px;
+  color: #e84d56;
+}
+
+.l-title{
+  width: 95%;
+    margin: auto;
+    font-size: 22px;
+    color: black
+}
+
+
+/* footer */
+.t-footer{
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+}
+.sub-footer{
+  text-decoration: none;
+  padding: 0 9px;
+  border-right: 2px solid white;
+}
+.sub-footer-l{
+  text-decoration: none;
+  padding: 0 9px;
+}
+
+@media screen and (max-width: 415px) {
+  .search_input{
+    width: 80%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+ .card-contain{
+   width: 100%;
+ }
+}

@@ -1,0 +1,116 @@
+.logo-img{
+    width: 11%;
+   }
+   .main-nav{
+       background-color: #e84d56;
+       background-image: url("/images/header_bg.3dea8d7.png");
+       background-repeat: repeat;
+   }
+   
+   .title{
+       color: white;
+       align-items: center;
+       font-weight: 400;
+       font-size: 20px;
+       margin: 11px;
+       border-radius: 28px;
+   }
+   .toggle-button{
+    margin-left: 258px;
+  }
+   .title:hover{
+     color: #e84d56;
+     border-radius: 28px;
+       background-color: white;  
+       padding: 10px;
+   }
+
+   .nav-button{
+    border: 1px solid white;
+   }
+
+/* Contact us */
+.contact-title{
+    font-size: 50px!important;
+    line-height: 1.2;
+}
+/* Form */
+.btn-submit{
+    background-color: #e84d56;
+    border-radius: 22px;
+    font-size: 20px;
+}
+
+/* FAQS */
+.faqs{
+    width: 300px; 
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(248, 248, 248);
+    margin-top: 115px;
+}
+.que{
+    text-align: center;
+    font-size: 21px;
+}
+.sub-que{
+    padding: 17px;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    color: rgba(0,0,0,.6)!important;
+}
+.btn-faqs{
+    background-color: #e84d56;
+    border-radius: 20px;
+    margin-left: 113px;
+}
+.icon-user{
+    font-size: 54px;
+    margin: 17px;
+    color: #e84d56;
+    margin-left: 69px;
+}
+
+/* card */
+.service{
+    background: #f8f8f8;
+}
+
+.service-item{
+    color: #e84d56;
+    transition: none;
+    box-shadow: 0 12px 33px 0 rgb(255 53 7 / 16%);
+    border-radius: 10px;
+    width: 200px;
+    height: 160px;
+}
+.service-item:hover{
+    background-color: #e84d56;
+    color: white;
+}
+
+.icon-st{
+    font-size: 50px;
+    margin: 27px
+  }
+
+.icon-txt{
+    /* color: black; */
+    font-size: 19px;
+}
+
+/* footer */
+.t-footer{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .sub-footer{
+    text-decoration: none;
+    padding: 0 9px;
+    border-right: 2px solid white;
+  }
+  .sub-footer-l{
+    text-decoration: none;
+    padding: 0 9px;
+  }

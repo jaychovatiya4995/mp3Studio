@@ -1,0 +1,74 @@
+.logo-img{
+    width: 11%;
+   }
+   .main-nav{
+       background-color: #e84d56;
+       background-image: url("/images/header_bg.3dea8d7.png");
+       background-repeat: repeat;
+   }
+   
+   .title{
+       color: white;
+       align-items: center;
+       font-weight: 400;
+       font-size: 20px;
+       margin: 11px;
+       border-radius: 28px;
+   }
+   .title:hover{
+     color: #e84d56;
+     border-radius: 28px;
+       background-color: white;
+       padding: 10px;
+   }
+   .toggle-button{
+    margin-left: 258px;
+  }
+   .nav-button{
+    border: 1px solid white;
+   }
+/* about us */
+.abt-us{
+    font-size: 50px!important;
+    line-height: 1.2;
+}
+
+.abt-title{
+    color: #556770;
+    font-size: 20px;
+}
+
+.v__image{
+    background-position: center center;
+    background-size: cover;
+}
+
+/* last section */
+.dwload{
+    font-size: 50px!important;
+    color: #000;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.dwload-subtitle{
+    color: #556770;
+}
+.lst-sec{
+    width: 71%;
+}
+
+/* footer */
+.t-footer{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .sub-footer{
+    text-decoration: none;
+    padding: 0 9px;
+    border-right: 2px solid white;
+  }
+  .sub-footer-l{
+    text-decoration: none;
+    padding: 0 9px;
+  }
