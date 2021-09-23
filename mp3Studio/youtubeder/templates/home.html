@@ -1,7 +1,13 @@
 {% extends "base.html" %}
-
+<!-- search page  -->
     {% block content %}
     <!-- header section -->
+<style>
+.brd{
+ border: 2px solid white;
+ padding: 10px 20px;
+}
+</style>
     <main class="main-container main-nav">
         <div class="p-5 p-md-5 mb-4 text-white rounded ">
             <div class="col-md-12 px-0">
@@ -9,19 +15,37 @@
                 <p class="lead my-3 text-center">The best Youtube Downloader - Video Downloader. It’s fast, free,
                     and
                     fantastic!</p>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center mb-5">
+                    <form action="{% url 'download' %}" method="GET">
+<!--                    <form>-->
+                    {% csrf_token %}
                     <div class="searchbar mt-5">
-                        <input class="search_input" type="text" name=""
-                            placeholder="Paste Here Youtube Link To Download...">
-                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                        <input class="search_input" id="text_link" type="text" name="url" value="{{ request.GET.url }}"
+                                placeholder="Paste Here Youtube Link To Download..." required>
+
+<!--                        <input class="search_input" id="text_link" type="text" name="url" placeholder="Paste Here Youtube Link To Download..." required>-->
+
+                        <button class="btn text-white search_icon"  type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
                     </div>
                 </div>
+
+            </div>
+        <div class="text-center">
+        <a href="{% url 'playlist' %}" class="brd text-decoration-none title text-center" >Playlist Download</a>
+        <a href="{% url 'mp3' %}" class="brd text-decoration-none title text-center title" >youtube to mp3</a>
+<!--        <a href="" class="text-decoration-none title text-center " >Instagram</a>-->
+<!--        <a href="" class="text-decoration-none title text-center " >Facebook</a>-->
             </div>
         </div>
     </main>
     <!-- sub-header -->
     <div class="main-container">
         <p class="sub-header text-center">By using our service you are accepting our terms of use.</p>
+    </div>
+<!--    <iframe src="{% url 'download' %}" id="show"></iframe>-->
+    <div class="container mt-5 mb-5" id="v">
+
     </div>
 
     <!-- main title -->
@@ -83,10 +107,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
             <div class="col-md-4 col-sm-6 col-12">
                 <div class="card card-contain m-auto">
                     <i class="fas fa-film icon-st" aria-hidden="true"></i>

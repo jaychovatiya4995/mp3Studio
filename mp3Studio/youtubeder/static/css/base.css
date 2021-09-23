@@ -22,7 +22,7 @@
   color: #e84d56;
   border-radius: 28px;
     background-color: white;
-    padding: 10px;
+
 }
 
 .nav-button{
@@ -44,3 +44,10 @@
     text-decoration: none;
     padding: 0 9px;
   }
+
+ .play-active{
+ color: #e84d56;
+  border-radius: 28px;
+    background-color: white;
+    padding: 10px;
+ }
